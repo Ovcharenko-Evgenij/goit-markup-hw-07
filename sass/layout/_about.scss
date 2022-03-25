@@ -11,10 +11,9 @@
 .about-container-title {
   width: 270px;
   outline: 2px solid var(--outlain-for-layout);
-}
-
-.about-container-title + .about-container-title {
-  margin-left: 30px;
+  & + & {
+    margin-left: 30px;
+  }
 }
 
 .about-icon {
@@ -49,7 +48,6 @@
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
-
   letter-spacing: 0.03em;
   margin-top: 10px;
 }
